@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CalculatorApi/bin
+/CalculatorApi/obj
+/EchoApi/bin
+/EchoApi/obj
+/HelloWorldApplication/obj/x64/Debug
+/HelloWorldApplication/pkg/Debug
+/packages/Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.2
+/SecureClusterWithReverseProxy/obj/Debug
+/WebUi/bin/Debug/net461/win7-x64
+/WebUi/bin/x64/Debug/net461/win7-x64
+/WebUi/obj
+/WebAadUi/bin
+/WebAadUi/obj

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterLocation": {
+      "value": "westeurope"
+    },
+    "clusterName": {
+      "value": "rpcluster"
+    },
+    "adminUserName": {
+      "value": "rpadmin"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": ""
+        },
+        "secretName": "sfpwd"
+      }
+    },
+    "vmImagePublisher": {
+      "value": "MicrosoftWindowsServer"
+    },
+    "vmImageOffer": {
+      "value": "WindowsServer"
+    },
+    "vmImageSku": {
+      "value": "2012-R2-Datacenter"
+    },
+    "vmImageVersion": {
+      "value": "latest"
+    },
+    "clusterCertificateStorevalue": {
+      "value": "My"
+    },
+    "clusterCertificateThumbprint": {
+      "value": ""
+    },
+    "sourceVaultvalue": {
+      "value": ""
+    },
+    "clusterCertificateUrlvalue": {
+      "value": ""
+    },
+    "sfReverseProxyCertificateStorevalue": {
+      "value": "My"
+    },
+    "sfReverseProxyCertificateThumbprint": {
+      "value": ""
+    },
+    "sfReverseProxyCertificateUrlvalue": {
+      "value": ""
+    },
+    "clusterProtectionLevel": {
+      "value": "EncryptAndSign"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "supportLogStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "applicationDiagnosticsStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "nt0InstanceCount": {
+      "value": 5
+    }
+  }
+}
