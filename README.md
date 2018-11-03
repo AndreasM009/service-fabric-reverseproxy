@@ -4,7 +4,7 @@ Shows usage of ServiceFabric with Reverse Proxy.
 
 ## Hint ASPNET.Core with ReverseProxy
 
-''' C#
+ÝÝÝ C#
 // rewrite path base if request is from reverse proxy like 19081 port (temporary)
             var rewriteOptions = new RewriteOptions()
                .Add(rewriteContext =>
@@ -25,4 +25,4 @@ Shows usage of ServiceFabric with Reverse Proxy.
                    }
                });
             app.UseRewriter(rewriteOptions);
-'''
+ÝÝÝ
